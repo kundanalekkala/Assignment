@@ -148,14 +148,6 @@ The backend therefore calls `GET /{leadgen_id}` on the Graph API with a Page Acc
 - Sends the `ngrok-skip-browser-warning` header so ngrok's free-plan interstitial does not break requests.
 
 
-
-## Observed behaviour and limits
-
-- **Delivery latency.** Meta took roughly a minute to deliver the first test lead. Plan for a short wait.
-- **Placeholder data.** The testing tool fills fields with placeholders such as `<test lead: dummy data for full_name>` unless the values are edited in the form preview.
-- **One test lead at a time.** The testing tool restricted creating additional test leads.
-- **Live mode.** While the app was in Development mode, the dashboard warned that only test webhooks sent from the dashboard are delivered. Real test leads arrived after the app was switched to Live.
-
 ## Troubleshooting
 
 | Symptom | Cause | Fix |
