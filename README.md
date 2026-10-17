@@ -11,7 +11,8 @@ A proof of concept where a lead submitted through a **Meta Lead Ad form** appear
 5. The React Native app adds the lead to the top of its list instantly.
 
 ## Architecture
-...
+```
+
 ┌────────────────────────┐
 │ Meta Lead Ads Testing  │   (you click "Create lead")
 │ Tool                   │
